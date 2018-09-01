@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+   <channel>
+      <title>AWS IAM Release Notes</title>
+      <link>https://docs.aws.amazon.com/IAM/latest/UserGuide/</link>
+      <description>Document history for the AWS IAM User Guide.</description>
+      <lastBuildDate>Sat, 1 Sep 2018 6:49:44 Z</lastBuildDate>
+      <item>
+         <title>Support for Amazon VPC endpoints</title>
+         <link>http://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_sts_vpce.html</link>
+         <description>You can now establish a private connection between your VPC and AWS STS in the
+          US West (Oregon) Region. </description>
+         <pubDate>Tue, 31 Jul 2018 19:00:00 GMT</pubDate>
+         <guid>https://docs.aws.amazon.com/IAM/latest/UserGuide/#Support_for_Amazon_VPC_endpoints_2018-07-31</guid>
+      </item>
+      <item>
+         <title>Delegated administrator</title>
+         <link>http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_boundaries.html</link>
+         <description>New feature makes it easier to grant trusted employees the ability
+        to manage IAM permissions without also granting full IAM administrative 
+        access.</description>
+         <pubDate>Thu, 12 Jul 2018 19:00:00 GMT</pubDate>
+         <guid>https://docs.aws.amazon.com/IAM/latest/UserGuide/#Delegated_administrator_2018-07-12</guid>
+      </item>
+      <item>
+         <title>aws:PrincipalOrgID</title>
+         <link>http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html</link>
+         <description>New condition key provides an easier way to control access to AWS resources by
+          specifying the AWS organization of IAM principals.</description>
+         <pubDate>Thu, 17 May 2018 19:00:00 GMT</pubDate>
+         <guid>https://docs.aws.amazon.com/IAM/latest/UserGuide/#aws:PrincipalOrgID_2018-05-17</guid>
+      </item>
+      <item>
+         <title>aws:RequestedRegion</title>
+         <link>http://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_condition-keys.html#requested-region</link>
+         <description>New condition key provides an easier way to use IAM policies to control access to
+          AWS Regions.</description>
+         <pubDate>Wed, 25 Apr 2018 19:00:00 GMT</pubDate>
+         <guid>https://docs.aws.amazon.com/IAM/latest/UserGuide/#aws:RequestedRegion_2018-04-25</guid>
+      </item>
+      <item>
+         <title>Increased session duration for IAM roles</title>
+         <link>http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_manage.html</link>
+         <description>An IAM role can now have a session duration of 12 hours.</description>
+         <pubDate>Wed, 28 Mar 2018 19:00:00 GMT</pubDate>
+         <guid>https://docs.aws.amazon.com/IAM/latest/UserGuide/#Increased_session_duration_for_IAM_roles_2018-03-28</guid>
+      </item>
+      <item>
+         <title>Updated role-creation workflow</title>
+         <link>http://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create.html</link>
+         <description>New workflow improves the process of creating trust relationships and attaching
+          permissions to roles.</description>
+         <pubDate>Fri, 8 Sep 2017 19:00:00 GMT</pubDate>
+         <guid>https://docs.aws.amazon.com/IAM/latest/UserGuide/#Updated_role-creation_workflow_2017-09-08</guid>
+      </item>
+      <item>
+         <title>AWS account sign-in process</title>
+         <link>http://docs.aws.amazon.com/IAM/latest/UserGuide/console.html#user-sign-in-page</link>
+         <description>Updated AWS sign-in experience allows both root users and IAM users to use the
+            &lt;b&gt;Sign In to the Console&lt;/b&gt; link on the AWS Management Console's home page.</description>
+         <pubDate>Fri, 25 Aug 2017 19:00:00 GMT</pubDate>
+         <guid>https://docs.aws.amazon.com/IAM/latest/UserGuide/#AWS_account_sign-in_process_2017-08-25</guid>
+      </item>
+      <item>
+         <title>Example IAM policies</title>
+         <link>http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_policy-summary-examples.html</link>
+         <description>Documentation update features more than 30 example policies.</description>
+         <pubDate>Wed, 2 Aug 2017 19:00:00 GMT</pubDate>
+         <guid>https://docs.aws.amazon.com/IAM/latest/UserGuide/#Example_IAM_policies_2017-08-02</guid>
+      </item>
+      <item>
+         <title>IAM best practices</title>
+         <link>http://docs.aws.amazon.com/IAM/latest/UserGuide/IAMBestPracticesAndUseCases.html</link>
+         <description>Information added to the &lt;b&gt;Users&lt;/b&gt; section of the IAM console makes
+          it easier to follow IAM best practices.</description>
+         <pubDate>Wed, 5 Jul 2017 19:00:00 GMT</pubDate>
+         <guid>https://docs.aws.amazon.com/IAM/latest/UserGuide/#IAM_best_practices_2017-07-05</guid>
+      </item>
+      <item>
+         <title>Auto Scaling resources</title>
+         <link>http://docs.aws.amazon.com/IAM/latest/UserGuide/list_autoscaling.html</link>
+         <description>Resource-level permissions can control access to and permissions for Auto Scaling
+          resources.</description>
+         <pubDate>Tue, 16 May 2017 19:00:00 GMT</pubDate>
+         <guid>https://docs.aws.amazon.com/IAM/latest/UserGuide/#Auto_Scaling_resources_2017-05-16</guid>
+      </item>
+      <item>
+         <title>Amazon RDS for MySQL and Amazon Aurora databases</title>
+         <link>http://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonrds.html</link>
+         <description>Database administrators can associate database users with IAM users and roles and
+          thus manage user access to all AWS resources from a single location.</description>
+         <pubDate>Mon, 24 Apr 2017 19:00:00 GMT</pubDate>
+         <guid>https://docs.aws.amazon.com/IAM/latest/UserGuide/#Amazon_RDS_for_MySQL_and_Amazon_Aurora_databases_2017-04-24</guid>
+      </item>
+      <item>
+         <title>Service-linked roles</title>
+         <link>http://docs.aws.amazon.com/IAM/latest/UserGuide/using-service-linked-roles.html</link>
+         <description>Service-linked roles provide an easier and more secure 
+          way to delegate permissions to AWS services.</description>
+         <pubDate>Wed, 19 Apr 2017 19:00:00 GMT</pubDate>
+         <guid>https://docs.aws.amazon.com/IAM/latest/UserGuide/#Service-linked_roles_2017-04-19</guid>
+      </item>
+      <item>
+         <title>Policy summaries</title>
+         <link>http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_understand-policy-summary.html</link>
+         <description>New policy summaries make it easier to understand permissions in IAM policies.</description>
+         <pubDate>Thu, 23 Mar 2017 19:00:00 GMT</pubDate>
+         <guid>https://docs.aws.amazon.com/IAM/latest/UserGuide/#Policy_summaries_2017-03-23</guid>
+      </item>
+   </channel>
+</rss>
